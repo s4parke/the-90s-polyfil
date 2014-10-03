@@ -12,11 +12,27 @@
         display: none !important;
       }
     </style>
+    <style>body { background-color: white;}</style>
 </head>
 <body>
 
     <!-- Using Custom Elements -->
-    <nineties-welcome>Hello there, Nikos!</nineties-welcome>
+    <nineties-welcome>Welcome back, Steve!</nineties-welcome>
+
+    <!--
+    - How to register a custom element
+    - How to use html imports
+    - How to handle the style while the element is being registered
+    -->
+
+    <h2>&lt;nineties-welcome&gt; Welcome Back, Steve! &lt;/nineties-welcome&gt;</h2>
+   <p>Anything you put inside the element becomes an alert box.</p>
+   <ul>
+        <li>Register a custom element</li>
+        <li>Use html imports</li>
+        <li>Handle unstyled content, before the element is registered</li>
+        <li>Use the equivalent of the "onload" event</li>
+    </ul>
 
 </body>
 </html>
